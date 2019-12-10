@@ -111,17 +111,7 @@ A **[Database
 Server](http://upload.wikimedia.org/wikipedia/commons/5/57/RDBMS_structure.png)**
 is a set of processes and files that manage the databases that store the tables.
 Sticking with our previous analogy a database server would map to Google Sheets.
-
-### Verb Equivalence
-
-**[CRUD](http://en.wikipedia.org/wiki/Create,_read,_update_and_delete)**
-_(create, read, update and delete) and SQL
-| CRUD   | SQL    | 
-|:-------|:-------|
-| Create | INSERT |
-| Read   | SELECT | 
-| Update | UPDATE |
-| Delete | DELETE | 
+ 
 
 ## PostgreSQL
 
