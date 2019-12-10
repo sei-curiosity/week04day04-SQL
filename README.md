@@ -115,14 +115,13 @@ Sticking with our previous analogy a database server would map to Google Sheets.
 ### Verb Equivalence
 
 **[CRUD](http://en.wikipedia.org/wiki/Create,_read,_update_and_delete)**
-_(create, read, update and delete)_, SQL, HTTP, and Rails Controller action.
-
-| CRUD   | SQL    | HTTP   | action     |
-|:-------|:-------|:-------|:-----------|
-| Create | INSERT | POST   | create     |
-| Read   | SELECT | GET    | index/show |
-| Update | UPDATE | PATCH  | update     |
-| Delete | DELETE | DELETE | destroy    |
+_(create, read, update and delete) and SQL
+| CRUD   | SQL    | 
+|:-------|:-------|
+| Create | INSERT |
+| Read   | SELECT | 
+| Update | UPDATE |
+| Delete | DELETE | 
 
 ## PostgreSQL
 
