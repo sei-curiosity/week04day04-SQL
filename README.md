@@ -242,7 +242,7 @@ use of it throughout the lesson.
 
 - [Table basics](https://www.postgresql.org/docs/11/ddl-basics.html)
     \- a brief overview of tables in an RDBMS.
-- [Data Types](https://www.postgresql.org/docs/11/datatype.html)
+- [Data Types](https://chartio.com/learn/databases/how-to-select-the-right-data-types/)
     \- the data types available in PostgreSQL.
 - [CREATE TABLE](https://www.postgresql.org/docs/11/sql-createtable.html)
     \- detailed documentation of PostgreSQL's version of the SQL `CREATE TABLE`
