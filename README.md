@@ -97,8 +97,7 @@ Why is this important?
 
 Database tables are a good place to store key/value pairs, as long as the values
 are simple types (e.g. string, number). The keys are the column names and the
-values are stored in each row. That maps well to simple JSON objects. A group of
-rows from one table maps well to a JSON array.
+values are stored in each row.
 
 What about more complicated data?
 
