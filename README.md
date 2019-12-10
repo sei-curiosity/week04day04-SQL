@@ -91,9 +91,7 @@ At it's simplest, a relational database is a mechanism to store and retrieve
 data in a tabular form.
 
 Spreadsheets are a good analogy. Individual sheets as tables and the whole
-spreadsheet as a database. See **[this
-link](https://docs.google.com/spreadsheets/d/19rHAb5JW3m25gCxh_WhFqJmYC59gLd0Gt5TZtu7al8E/edit#gid=0)**
-for an example.
+spreadsheet as a database. Here's **[a simple example of a relational database](https://cdn-images-1.medium.com/max/2740/0*FyqSEsID4A_2jE_n.)**.
 
 Why is this important?
 
