@@ -281,7 +281,7 @@ to where we run `psql`. Bulk loading is something available with most RDBMSs,
 but the specific commands and capabilities vary.
 
 additionally we can also save the sql quiery in a (sql) file and use that file to run our query to bulk load the data
-using
+using /i <file>
 ### Code Along: COPY
 
 Note that string literals in SQL statements are delimited by single quotes, i.e.
