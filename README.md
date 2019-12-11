@@ -125,6 +125,10 @@ _On Linux_ `service --status-all | grep postgresql` to check if it's running.
 
 - To start it if it's not running, do `sudo service postgresql start`.
 
+_On Windows_ `Use services (start -> run -> services.msc) and look for the postgresql-[version] service.
+If it is not running try to start it, if it won't start open the event-viewer (start -> run -> eventvwr) and look for error messages relating to the PostgreSQL service.
+If it does start check the startup type, if you want it to start with windows it should be "Automatic"; or perhaps "Automatic, delayed start" if you don't want it to slow down startup too much.`
+
 ## Code along: CREATE DATABASE
 
 We'll use `sql-crud` as the database to hold our tables and
