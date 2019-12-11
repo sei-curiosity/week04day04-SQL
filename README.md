@@ -35,7 +35,7 @@ create database with current system username `whoami`
 ```  
 createdb
 ```
-
+if issues: can use https://postgresapp.com/ to download postgres app and work from there.
 ### Ubuntu
 
 install postgres and build dependency
@@ -59,13 +59,11 @@ sudo service postgresql start
 ### Windows
 
 ```
-psql -c "UPDATE pg_database SET datistemplate=FALSE WHERE datname='template1';" &> /dev/null
-psql -c "DROP DATABASE template1;" &> /dev/null
-psql -c "CREATE DATABASE template1 WITH TEMPLATE = template0 ENCODING = 'UNICODE';" &> /dev/null
-psql -c "UPDATE pg_database SET datistemplate=TRUE WHERE datname='template1';" &> /dev/null
-psql -c "\c template1;" &> /dev/null
-psql -c "VACUUM FREEZE;" &> /dev/null
+Windows users can download Postgres from https://www.enterprisedb.com/downloads/postgres-postgresql-downloads .
 ```
+Selecting the relevant version first
+```
+After download check in their applications for SQL SHELL(psql) to initiate the server on the post 5432. 
 
 ### Everyone
 Resource bashrc
