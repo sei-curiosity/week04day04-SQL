@@ -389,7 +389,7 @@ the commands in `scripts/library/010_insert_into_books.sql`.
 **INSERT INTO:** Add an ingredient to the `ingredients` table using `INSERT`.
 
 ## Lab:
-https://pgexercises.com/questions/basic/selectall.html
+https://pgexercises.com/questions/basic
 
 ## Additional Resources
 
