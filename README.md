@@ -374,7 +374,7 @@ We'll update the isbn for some books.
 ### Code Along: INSERT INTO
 
 First we'll use variations of `INSERT` to add a few rows to books. We'll store
-the the commands in `scripts/library/010_insert_into_books.sql`.
+the commands in `scripts/library/010_insert_into_books.sql`.
 
 ----
 
@@ -387,6 +387,9 @@ the the commands in `scripts/library/010_insert_into_books.sql`.
 **UPDATE:** Update macro-nutrients for some ingredients.
 
 **INSERT INTO:** Add an ingredient to the `ingredients` table using `INSERT`.
+
+## Lab:
+https://pgexercises.com/questions/basic/selectall.html
 
 ## Additional Resources
 
