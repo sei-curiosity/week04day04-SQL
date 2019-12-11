@@ -58,12 +58,11 @@ sudo service postgresql start
 
 ### Windows
 
-```
-Windows users can download Postgres from https://www.enterprisedb.com/downloads/postgres-postgresql-downloads .
+Windows users can download Postgres from https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
 ```
 Selecting the relevant version first
-```
 After download check in their applications for SQL SHELL(psql) to initiate the server on the post 5432. 
+```
 
 ### Everyone
 Resource bashrc
@@ -281,6 +280,8 @@ rather we'll use `psql`'s meta-command `\copy` allowing us to load data relative
 to where we run `psql`. Bulk loading is something available with most RDBMSs,
 but the specific commands and capabilities vary.
 
+additionally we can also save the sql quiery in a (sql) file and use that file to run our query to bulk load the data
+using
 ### Code Along: COPY
 
 Note that string literals in SQL statements are delimited by single quotes, i.e.
