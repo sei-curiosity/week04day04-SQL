@@ -284,7 +284,7 @@ rather we'll use `psql`'s meta-command `\copy` allowing us to load data relative
 to where we run `psql`. Bulk loading is something available with most RDBMSs,
 but the specific commands and capabilities vary.
 
-additionally we can also save the sql quiery in a (sql) file and use that file to run our query to bulk load the data
+additionally we can also save the sql query in an (sql) file and use that file to run our query to bulk load the data
 using /i <file>
 ### Code Along: COPY
 
